@@ -26,3 +26,6 @@ app/assets/stylesheets/application.scss
 @import "bootstrap";
 en:
 app/assets/stylesheets/application.scss
+
+......................................................
+//
