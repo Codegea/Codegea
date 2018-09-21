@@ -1,0 +1,24 @@
+ls
+git init
+git config --global user.email "david_egea@hotmail.com"
+git config --global user.name "Codegea"
+
+git status
+git add
+git add .
+git commit
+git checkout -- CurriculumVitae.html
+git diff CurriculumVitae.html
+git commit -m "Comentarios del commit"
+git log
+git pull
+
+git clone https://github.com/Codegea/AplicacionesHibridas.git
+git -u origin master
+git push origin master
+git push -u origin master
+git branch versionUno
+git checkout versionUno
+git commit -m 'Adición Js'
+git branch -d <Elimina ramas>
+git merge test <Este comando es para fusionar ramas, nos paramos sobre la quese comera a test (master)>

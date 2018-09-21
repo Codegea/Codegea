@@ -1,0 +1,28 @@
+// Versiones para instalar Ruby on rails
+ruby:   2.4.4p296 (2018-03-28 revision 63013) [x64-mingw32]
+Rails:  5.2.1
+nodeJs: v10.11.0
+
+
+//Instalación posgrest
+instalar postgres siguiendo la guia "InstalaciónPosgrest.docx"
+
+
+//Add bootstrap to your Gemfile:
+gem 'bootstrap', '~> 4.1.3'
+
+
+//Add jquery-rails to your Gemfile:
+gem 'jquery-rails'
+
+
+//Cambiamos la extencion al archivo:
+app/assets/stylesheets/application.css:
+por:
+app/assets/stylesheets/application.scss
+
+
+//Adicionamos:
+@import "bootstrap";
+en:
+app/assets/stylesheets/application.scss
